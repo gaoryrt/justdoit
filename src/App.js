@@ -108,7 +108,7 @@ const Card = ({ name, duration, lasttime, onChange, onDel }) => {
             onChange({ lasttime: +new Date() });
         }}
       >
-        <div className="b">{Math.max(0, diff)}</div>
+        <div className="b">{diff}</div>
       </div>
     </div>
   );
